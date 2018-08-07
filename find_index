@@ -1,0 +1,4 @@
+def find_index(lst, str):
+	for i in range(0,len(lst))
+		if (lst[i]=str)
+		return i
