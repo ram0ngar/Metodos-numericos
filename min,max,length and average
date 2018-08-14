@@ -1,0 +1,7 @@
+def minMaxLengthAverage(lst):
+	array=['']*4
+	array[0]=min(lst)
+	array[1]=max(lst)
+	array[2]=len(lst)
+	array[3]=sum(lst)/len(lst)
+	return array
