@@ -1,0 +1,6 @@
+def findSmallestNum(lst):
+	smallest=lst[0]
+	for i in range(1,len(lst)):
+		if smallest>lst[i]:
+			smallest=lst[i]
+	return smallest		
