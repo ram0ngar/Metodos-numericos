@@ -1,0 +1,12 @@
+def noOdds(lst):
+	arr2=['']*len(lst)
+	j=0
+	for i in range (0,len(lst)):	
+		if lst[i]%2==0:
+			arr2[j]=lst[i]
+			j=j+1
+	arr3=['']*j
+	for i in range(0,len(arr3)):
+		arr3[i]=arr2[i]
+	lst=arr3
+	return lst
