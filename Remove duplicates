@@ -1,0 +1,7 @@
+def removeDups(lst):
+	aux2=[]
+	for i in lst:
+		if i not in aux2:
+			aux2.append(i)
+	lst=aux2
+	return lst			
