@@ -1,0 +1,12 @@
+def filter_list(lst):
+	aux=[' ']*len(lst)
+	j=0
+	for i in range(0,len(lst)):
+		if isinstance(lst[i],str)==0:
+			aux[j]=lst[i]
+			j=j+1
+	aux2=['']*j		
+	for i in range(0,len(aux2)):
+		aux2[i]=aux[i]
+	lst=aux2	
+	return lst
