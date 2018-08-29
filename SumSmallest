@@ -1,1 +1,21 @@
-s
+def sum_two_smallest_nums(lst):
+	aux2=[]
+	for i in range(0,len(lst)):
+		if lst[i]>0:
+			aux2.append(lst[i])
+	lst=aux2
+	small=min(lst)
+	for i in range (0,len(lst)):
+		if lst[i]==small:
+			lst.pop(i)
+			break
+	small2=min(lst)
+	print(small)
+	for i in range (0,len(lst)):
+		if lst[i]==small2:
+			lst.pop(i)
+			break
+	print(small2)			
+	numero=small+small2		
+	return numero
+	
