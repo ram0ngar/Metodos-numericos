@@ -1,0 +1,10 @@
+def get_abs_sum(lst):
+	sum=0
+	for i in range(0,len(lst)):
+		aux=lst[i]
+		if aux>=0:
+			sum=sum+aux
+		else:
+			aux=aux*(-1)
+			sum=sum+aux
+	return sum		
