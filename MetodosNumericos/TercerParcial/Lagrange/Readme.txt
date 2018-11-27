@@ -1,0 +1,1 @@
+Es un metodo para interpolar un conjunto de puntos dado por medio de un polinomio

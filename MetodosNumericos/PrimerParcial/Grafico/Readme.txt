@@ -1,0 +1,1 @@
+Consiste en graficar la funcion y aproximar con la vista el valor d ela raiz
